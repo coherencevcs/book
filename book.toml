@@ -1,0 +1,34 @@
+[book]
+title = "Coherence Book"
+authors = ["ItsAleph"]
+description = "This book goes into details of working with Coherence"
+language = "en"
+src = "book"
+
+[rust]
+edition = "2021"
+
+[build]
+build-dir = "build"
+create-missing = true
+
+[output.html]
+default-theme = "dark"
+no-section-label = true
+git-repository-url = "https://github.com/coherencevcs/book"
+edit-url-template = "https://github.com/coherencevcs/book/edit/master/{path}"
+site-url = "/book/"
+
+[output.html.playground]
+editable = false
+copyable = true # Why not
+copy-js = false
+line-numbers = false
+runnable = false
+
+[output.html.search]
+enable = true
+limit-results = 10
+teaser-word-count = 15
+expand = true
+copy-js = true
